@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: none;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cal {
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 0 20px 0 #999;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+}
+input {
+    grid-column: span 4;
+   height: 50px;
+   width: 260px;
+   background-color: #fff;
+   border-radius: 20px;
+   color: #3d3c3c;
+   outline: none;
+   border: none;
+   font-size: 35px;
+   text-align: right;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+button {
+    height: 48px;
+    width: 48px;
+    background-color: #fffcfc;
+    border: none;
+    border-radius: 20%;
+    margin: 8px;
+    font-size: 23px;
+    box-shadow: 0 0 20px 0 #dddcdc;
+    color: rgb(224, 143, 21);
+    cursor: pointer;
+}
+.eql-btn {
+    width: 120px;
+    box-shadow: 0 0 20px 0 #dddcdc;
+}
